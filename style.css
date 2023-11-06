@@ -1,0 +1,120 @@
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px; 
+    color: #242424;
+    border-top: 10px solid #424242;
+    background: #fff;
+    padding: 1%;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+p {
+    line-height: 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #ccc;
+    padding: 1%;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+address {
+    text-align: center;
+}
+
+.center-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#blog {
+    border-top: 1px dotted #ccc;
+    align-items: center;
+}
+
+
+.blog-post {
+    border-bottom: 1px dotted #ccc;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px; 
+    line-height: 1.2em;
+}
+
+.image-content {
+    flex: 1;
+    text-align: right;
+}
+
+
+.form-layout {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 5px;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+}
